@@ -43,8 +43,14 @@ This repository contains the official implementation of the following paper:
 </table>
 
 2. LUIQD Dataset used in our work can be downloaded in the links below:
-    - LUIQD: [<a href="">Google Drive (TBD)</a>] [<a href="https://pan.baidu.com/s/1owosMFmhAux1HdgKPyds6A?pwd=s31p">Baidu Disk (pwd: s31p)</a>]
-    The data is put in dir `./data/`.
+LUIQD: [<a href="">Google Drive (TBD)</a>] [<a href="https://pan.baidu.com/s/1owosMFmhAux1HdgKPyds6A?pwd=s31p">Baidu Disk (pwd: s31p)</a>]
+
+Unzip the LUIQD dataset and put in dir `./data/`.
+```bash
+cat LUIQD_* > LUIQD.tar.gz
+tar xvzf LUIQD.tar.gz
+```
+
 
 **The directory structure will be arranged as**:
 ```
@@ -53,9 +59,15 @@ checkpoints
 data
     |- LUIQD
         |- CLAHE
+            |- ***.jpg
+            |- ...
         |- Fusion
+            |- ***.jpg
+            |- ...
         |- ...
         |- WaterNet
+            |- ***.jpg
+            |- ...
         |- db_train_final.csv
         |- db_valid_final.csv
 ```
