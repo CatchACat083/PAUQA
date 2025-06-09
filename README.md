@@ -5,7 +5,7 @@ This repository contains the official implementation of the following paper:
 > BoSen Lin, JunYu Dong, XingHui Dong<sup>*</sup><br>
 > IEEE Transactions on Circuits and Systems for Video Technology, 2025<br>
 
-[[Arxiv Paper](TBD)] [[Dataset (pwd: s31p)](https://pan.baidu.com/s/1owosMFmhAux1HdgKPyds6A?pwd=s31p)]
+[[Paper](https://ieeexplore.ieee.org/document/11017762)] [[Dataset (pwd: s31p)](https://pan.baidu.com/s/1owosMFmhAux1HdgKPyds6A?pwd=s31p)]
 
 ## Dependencies and Installation
 1. Clone Repo
